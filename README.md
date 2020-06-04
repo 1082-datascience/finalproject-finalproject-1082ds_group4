@@ -1,4 +1,4 @@
-# <預測糖尿病 Pima Indians Diabetes Database-Predict the onset of diabetes based on diagnostic measures>
+# < Pima Indians Diabetes Database-Predict the onset of diabetes based on diagnostic measures>
 
 ### Groups
 * <蔡宗諺, 108753205>
