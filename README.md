@@ -1,5 +1,4 @@
-# <預測糖尿病>
-# <Pima Indians Diabetes Database-Predict the onset of diabetes based on diagnostic measures>
+# <預測糖尿病 Pima Indians Diabetes Database-Predict the onset of diabetes based on diagnostic measures>
 
 ### Groups
 * <蔡宗諺, 108753205>
@@ -26,7 +25,7 @@ Rscript code/predict.R --input data/training --predict results/predict.tsv
 ## Folder organization and its related information
 
 ### docs
-* Your presentation, 1082_datascience_FP_<Group4>.pdf, by **Jun. 25**
+* Your presentation, 1082_datascience_FP_Group4.pdf, by **Jun. 25**
 * Any related document for the final project
   * papers
   * software user guide
@@ -36,6 +35,7 @@ Rscript code/predict.R --input data/training --predict results/predict.tsv
 ### data
 
 * Source
+  * https://www.kaggle.com/uciml/pima-indians-diabetes-database
 * Input format
 * Any preprocessing?
   * Handle missing data
