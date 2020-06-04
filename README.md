@@ -1,28 +1,37 @@
-# Title of your final project
+# <預測糖尿病 >
+#<Pima Indians Diabetes Database-Predict the onset of diabetes based on diagnostic measures>
 
 ### Groups
-* name, student ID1
-* name, student ID2
-* name, student ID3
-* ...
+* <蔡宗諺, 108753205>
+* <葉冠宏, 108753208>
+* <蔡承軒, 107354018>
+
 
 ### Goal
-A breif introduction about your project, i.e., what is your goal?
+
+目標為預測該人是否為糖尿病患者
 
 ### Demo 
-You should provide an example commend to reproduce your result
+Performance
 ```R
-Rscript code/your_script.R --input data/training --output results/performance.tsv
+Rscript code/predict.R --input data/training --report results/performance.tsv
 ```
+Predict
+```R
+Rscript code/predict.R --input data/training --predict results/predict.tsv
+```
+
 * any on-line visualization
 
 ## Folder organization and its related information
 
 ### docs
-* Your presentation, 1072_datascience_FP_<yourID|groupName>.ppt/pptx/pdf, by **Jun. 25**
+* Your presentation, 1082_datascience_FP_<Group4>.pdf, by **Jun. 25**
 * Any related document for the final project
   * papers
   * software user guide
+
+
 
 ### data
 
