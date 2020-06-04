@@ -37,6 +37,7 @@ Rscript code/predict.R --input data/training --predict results/predict.tsv
 * Source
   * https://www.kaggle.com/uciml/pima-indians-diabetes-database
 * Input format
+![Data](data_format.png)
 * Any preprocessing?
   * Handle missing data
   * Scale value
