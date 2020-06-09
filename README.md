@@ -11,15 +11,10 @@
 目標為預測該人是否為糖尿病患者
 
 ### Demo 
-Performance
+Performance/Predict
 ```R
-Rscript code/predict.R --input data/training --report results/performance.tsv
+Rscript rproject.R --fold n --train data.csv --report performance.csv --predict predict.csv
 ```
-Predict
-```R
-Rscript code/predict.R --input data/training --predict results/predict.tsv
-```
-
 * any on-line visualization
 
 ## Folder organization and its related information
@@ -37,7 +32,6 @@ Rscript code/predict.R --input data/training --predict results/predict.tsv
 * Source
   * https://www.kaggle.com/uciml/pima-indians-diabetes-database
 * Input format
-![Data](data_format.png)
 * Any preprocessing?
   * Handle missing data
   * Scale value
