@@ -11,9 +11,9 @@
 目標為預測該人是否為糖尿病患者
 
 ### Demo 
-Performance/Predict
+Performance
 ```R
-Rscript rproject.R --fold n --train data.csv --report performance.csv --predict predict.csv
+Rscript rproject.R --fold n --train data.csv --report performance.csv
 ```
 * any on-line visualization
 
@@ -31,16 +31,26 @@ Rscript rproject.R --fold n --train data.csv --report performance.csv --predict 
 
 * Source
   * https://www.kaggle.com/uciml/pima-indians-diabetes-database
-* Input format
+* Input format：.csv
 * Any preprocessing?
   * Handle missing data
-  * Scale value
+  * Visualize the data and find outliers
+  * Delete outlier
+  * Check each features (abnormal value)
+  * Shuffle the data
+  * Build Correlation matrix without missing value
+  * Select different feature combinations
+
 
 ### code
 
 * Which method do you use?
+  * Logistic Regression
+  * Decison Tree
 * What is a null model for comparison?
 * How do your perform evaluation? ie. Cross-validation, or extra separated data
+  * Split data into 3 part(Training/Validation/Testing)
+  * K-fold cross validation
 
 ### results
 
@@ -52,6 +62,15 @@ Rscript rproject.R --fold n --train data.csv --report performance.csv --predict 
 ## Reference
 * Code/implementation which you include/reference (__You should indicate in your presentation if you use code for others. Otherwise, cheating will result in 0 score for final project.__)
 * Packages you use
+  * library(rpart)
+  * library(caret)
+  * library(party)
+  * library(varhandle)
+  * library(ggplot)
+  
+
+  
+
 * Related publications
 
 
