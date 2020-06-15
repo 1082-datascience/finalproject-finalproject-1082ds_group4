@@ -9,6 +9,7 @@
 ### Goal
 
 目標為預測該人是否為糖尿病患者
+The objective of the dataset is to diagnostically predict whether or not a patient has diabetes.
 
 ### Demo 
 Performance
@@ -48,6 +49,7 @@ Rscript rproject.R --fold n --train data.csv --report performance.csv
   * Logistic Regression
   * Decison Tree
 * What is a null model for comparison?
+  * All output is 0 ,the model accuracy is 65%.
 * How do your perform evaluation? ie. Cross-validation, or extra separated data
   * Split data into 3 part(Training/Validation/Testing)
   * K-fold cross validation
@@ -57,6 +59,7 @@ Rscript rproject.R --fold n --train data.csv --report performance.csv
 * Which metric do you use 
   * precision, recall, R-square
 * Is your improvement significant?
+  * 
 * What is the challenge part of your project?
 
 ## Reference
