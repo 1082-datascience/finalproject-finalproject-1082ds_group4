@@ -47,10 +47,10 @@ Rscript rproject.R --fold n --train data.csv --report performance.csv
   * Age:  Age (years)
 ![features](./data/features.png)
 * Any preprocessing?
+![preprocessing](./data/preprocessing.png)
   * Handle missing data
   * Visualize the data and find outliers
   * Delete outlier
-  * Check each features (abnormal value)
   * Shuffle the data
   * Build Correlation matrix without missing value
 ![correlation matrix](./data/correlation_matrix.png)
