@@ -81,7 +81,8 @@ Rscript rproject.R --fold n --train data.csv --report performance.csv
 * Which metric do you use 
   * precision, recall, R-square
 * Is your improvement significant?
-  * 
+  * As the result shows, if we put all features to train our model , no matter the logistic regression or decision tree, the training accuracy are the highest but the testing accuracy are lowest. We thought that putting all features to train model would cause model be overfitting. Thus we took away the features that have high correlation to avoid the collinearity. Eventually, we constructed a model which achieved 80% testing accuracy only trained with five features. The improvement is significantly higher than the null model.
+  
 * What is the challenge part of your project?
 
 ## Reference
