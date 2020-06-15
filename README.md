@@ -22,7 +22,7 @@ Rscript code/rproject.R --fold n --train data/diabetes.csv --report performance.
 ## Folder organization and its related information
 
 ### docs
-* Your presentation, 1082_datascience_FP_Group4.pdf, by **Jun. 25**
+* Your presentation, 1082_datascience_FP_Group4.pdf(./PPT/1082_datascience_FP_Group4_v1.pdf), by **Jun. 25**
 * Any related document for the final project
   * papers
   * software user guide
