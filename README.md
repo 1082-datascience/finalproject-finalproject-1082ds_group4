@@ -32,9 +32,9 @@ Rscript rproject.R --fold n --train data.csv --report performance.csv
 
 * Source
   * https://www.kaggle.com/uciml/pima-indians-diabetes-database
-![kaggle](kaggle.png)
+![kaggle](./data/kaggle.png)
 * Input format：.csv
-![data_format](data_format.png)
+![data_format](./data/data_format.png)
 * Data Features
   * Pregnancies: Number of times pregnant
   * Glucose:  Plasma glucose concentration a 2 hours in an oral glucose tolerance test
@@ -44,7 +44,7 @@ Rscript rproject.R --fold n --train data.csv --report performance.csv
   * BMI:  Body mass index (weight in kg/(height in m)^2)
   * DiabetesPedigreeFunction: Diabetes pedigree function
   * Age:  Age (years)
-![features](features.png)
+![features](./data/features.png)
 * Any preprocessing?
   * Handle missing data
   * Visualize the data and find outliers
