@@ -52,8 +52,12 @@ Rscript rproject.R --fold n --train data.csv --report performance.csv
   * Check each features (abnormal value)
   * Shuffle the data
   * Build Correlation matrix without missing value
+![correlation matrix](./data/correlation_matrix.png)
   * Select different feature combinations
-
+    * All Features
+    * All Features without Insulin & DiabetesPedigreeFunction
+    * All Features without Insulin & DiabetesPedigreeFunction & Pregnancies
+    * All Features without Insulin & DiabetesPedigreeFunction & Age
 
 ### code
 
