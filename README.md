@@ -98,4 +98,8 @@ Rscript rproject.R --fold n --train data.csv --report performance.csv
   
 * Related publications
 
+  * https://www.kaggle.com/devisangeetha/which-factor-causes-diabetes
+  * https://medium.com/datainpoint/r-essentials-ggplot2-visualizations-817d2416b83e
+  * https://www.kaggle.com/uciml/pima-indians-diabetes-database
+  * http://www.sthda.com/english/wiki/ggcorrplot-visualization-of-a-correlation-matrix-using-ggplot2 
 
