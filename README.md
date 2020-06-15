@@ -72,6 +72,9 @@ Rscript rproject.R --fold n --train data.csv --report performance.csv
 
 ### results
 
+![accuracy](./data/accuracy.png)
+![kfold](./data/kfold.png)
+
 * Which metric do you use 
   * precision, recall, R-square
 * Is your improvement significant?
