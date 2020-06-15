@@ -79,9 +79,11 @@ Rscript code/rproject.R --fold n --train data/diabetes.csv --report performance.
 ![kfold](./data/kfold.png)
 
 * Which metric do you use 
-  * precision, recall, R-square
+  * Accuracy
 * Is your improvement significant?
-  * As the result shows, if we put all features to train our model , no matter the logistic regression or decision tree, the training accuracy are the highest but the testing accuracy are lowest. We thought that putting all features to train model would cause model be overfitted. Thus we took away the features that have high correlation to avoid the collinearity. Eventually, we constructed a model which achieved 80% testing accuracy only trained with five features. The improvement is significantly higher than the null model.
+  * As the result shows, if we put all features to train our model , no matter the logistic regression or decision tree, the training accuracy are the highest but the testing accuracy are lowest.
+  * We thought that putting all features to train model would cause model be overfitted. Thus we took away the features that have high correlation to avoid the collinearity.
+  * Eventually, we constructed a model which achieved 80% testing accuracy only trained with five features. The improvement is significantly higher than the null model.
   
 * What is the challenge part of your project?
   * The challenge part of our project is that the data contains a lot of missing value. Moreover, our data have only 768 records so that we couldn't delete the data which contains missing value. 
