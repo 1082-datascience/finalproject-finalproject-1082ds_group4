@@ -9,6 +9,7 @@
 ### Goal
 
 目標為預測該人是否為糖尿病患者
+
 The objective of the dataset is to diagnostically predict whether or not a patient has diabetes.
 
 ### Demo 
