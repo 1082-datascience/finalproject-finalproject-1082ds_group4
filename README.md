@@ -73,6 +73,8 @@ Rscript rproject.R --fold n --train data.csv --report performance.csv
 
 ### results
 
+* e.g. x1: Pregnancies x5:Insulin x7:DiabetesPedigreeFunction x8:Age
+
 ![accuracy](./data/accuracy.png)
 ![kfold](./data/kfold.png)
 
