@@ -15,7 +15,7 @@ The objective of the dataset is to diagnostically predict whether or not a patie
 ### Demo 
 Performance
 ```R
-Rscript rproject.R --fold n --train data.csv --report performance.csv
+Rscript code/rproject.R --fold n --train data/diabetes.csv --report performance.csv --predict predict.csv
 ```
 * any on-line visualization
 
